@@ -1,0 +1,12 @@
+# Datos pesados: no se versionan en git (ver data/raw/README.md y data/processed/README.md)
+data/raw/*.csv
+data/processed/*.csv
+
+# Entornos y cachés de Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
